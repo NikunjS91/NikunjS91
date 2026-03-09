@@ -186,7 +186,7 @@ Exploratory Data Analysis of the Sleep Health and Lifestyle dataset as part of C
 
 <div align="center">
 
-[![Trophies](https://github-profile-trophy.vercel.app/?username=NikunjS91&theme=dark_lover&no-frame=true&column=6&margin-w=5)](https://github.com/ryo-ma/github-profile-trophy)
+[![Trophies](https://github-stats-alpha.vercel.app/api/badges/trophies?username=NikunjS91&theme=dark)](https://github.com/NikunjS91)
 
 </div>
 
