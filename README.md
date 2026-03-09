@@ -173,9 +173,9 @@ Exploratory Data Analysis of a Sleep Health and Lifestyle dataset for CS696A. Co
 
 <div align="center">
 
-[![GitHub Stats](https://github-readme-stats.vercel.app/api?username=NikunjS91&show_icons=true&theme=github_dark&hide_border=true&include_all_commits=true&count_private=true)](https://github.com/NikunjS91)
+[![GitHub Stats](https://github-readme-stats.vercel.app/api?username=NikunjS91&show_icons=true&theme=github_dark&hide_border=true&include_all_commits=true&count_private=true&cache_seconds=1800)](https://github.com/NikunjS91)
 
-[![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=NikunjS91&layout=donut&theme=github_dark&hide_border=true)](https://github.com/NikunjS91)
+[![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=NikunjS91&layout=compact&theme=github_dark&hide_border=true&cache_seconds=1800)](https://github.com/NikunjS91)
 
 [![GitHub Streak](https://streak-stats.demolab.com?user=NikunjS91&theme=github-dark-blue&hide_border=true)](https://git.io/streak-stats)
 
