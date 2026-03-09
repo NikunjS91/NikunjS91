@@ -182,16 +182,6 @@ Exploratory Data Analysis of the Sleep Health and Lifestyle dataset as part of C
 
 ---
 
-## 🏆 GitHub Trophies
-
-<div align="center">
-
-[![Trophies](https://github-stats-alpha.vercel.app/api/badges/trophies?username=NikunjS91&theme=dark)](https://github.com/NikunjS91)
-
-</div>
-
----
-
 ## 🐍 Contribution Activity
 
 <div align="center">
