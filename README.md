@@ -135,14 +135,13 @@ A social threading application built with TypeScript and a GraphQL API layer, de
 
 ---
 
-### 📊 [sleep-health-lifestyle-eda](https://github.com/NikunjS91/sleep-health-lifestyle-eda) — Sleep Health & Lifestyle EDA
+### 😴 [sleep-health-lifestyle-eda](https://github.com/NikunjS91/sleep-health-lifestyle-eda) — Sleep Health & Lifestyle EDA
 
-Exploratory Data Analysis of a Sleep Health and Lifestyle dataset for CS696A. Covers data cleaning, statistical analysis, and multi-dimensional visualization to extract health insights.
+Exploratory Data Analysis of the Sleep Health and Lifestyle dataset as part of CS696A Group Project. Investigates correlations between sleep patterns, lifestyle factors, and health outcomes using Python and Jupyter Notebook.
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=flat-square&logo=jupyter&logoColor=white)
 ![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white)
-![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white)
 
 ---
 
@@ -173,9 +172,9 @@ Exploratory Data Analysis of a Sleep Health and Lifestyle dataset for CS696A. Co
 
 <div align="center">
 
-[![GitHub Stats](https://github-readme-stats.vercel.app/api?username=NikunjS91&show_icons=true&theme=github_dark&hide_border=true&include_all_commits=true&count_private=true&cache_seconds=1800)](https://github.com/NikunjS91)
+[![GitHub Stats](https://github-profile-summary-cards.vercel.app/api/cards/stats?username=NikunjS91&theme=github_dark)](https://github.com/NikunjS91)
 
-[![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=NikunjS91&layout=compact&theme=github_dark&hide_border=true&cache_seconds=1800)](https://github.com/NikunjS91)
+[![Top Languages](https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=NikunjS91&theme=github_dark)](https://github.com/NikunjS91)
 
 [![GitHub Streak](https://streak-stats.demolab.com?user=NikunjS91&theme=github-dark-blue&hide_border=true)](https://git.io/streak-stats)
 
@@ -187,7 +186,7 @@ Exploratory Data Analysis of a Sleep Health and Lifestyle dataset for CS696A. Co
 
 <div align="center">
 
-[![Trophies](https://github-profile-trophy.vercel.app/?username=NikunjS91&theme=darkhub&no-frame=true&column=7)](https://github.com/ryo-ma/github-profile-trophy)
+[![Trophies](https://github-profile-trophy.vercel.app/?username=NikunjS91&theme=dark_lover&no-frame=true&column=6&margin-w=5)](https://github.com/ryo-ma/github-profile-trophy)
 
 </div>
 
