@@ -81,6 +81,20 @@ MS Computer Science student at **Pace University, Seidenberg School of CSIS** (D
 
 ## 🚀 Featured Projects
 
+### 🔨 [ResumeForge](https://github.com/NikunjS91/resumeforge) — AI-Powered Resume Tailoring System
+> Personal Product Build · FastAPI + React · March 2026
+
+An end-to-end resume optimization platform that parses resumes (PDF/DOCX), analyzes job descriptions, tailors content with LLMs (local Ollama or NVIDIA NIM), computes ATS keyword scores, and exports professional LaTeX PDFs. Designed for full local privacy with production-ready architecture.
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
+![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
+![TailwindCSS](https://img.shields.io/badge/TailwindCSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)
+![SQLite](https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white)
+![Ollama](https://img.shields.io/badge/Ollama-000000?style=flat-square)
+
+---
+
 ### 🔍 [TrueSight](https://github.com/NikunjS91/TrueSight) — AI-Powered Image Authenticity Verification
 > CS691 Capstone Project · Pace University · Spring 2026
 
