@@ -200,7 +200,7 @@ Exploratory Data Analysis of the Sleep Health and Lifestyle dataset as part of C
 
 <div align="center">
 
-![Snake animation](https://github.com/NikunjS91/NikunjS91/blob/output/github-contribution-grid-snake-dark.svg)
+![Snake animation](https://raw.githubusercontent.com/NikunjS91/NikunjS91/output/github-contribution-grid-snake-dark.svg)
 
 </div>
 
