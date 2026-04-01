@@ -95,12 +95,12 @@ def build_svg(total: int, streak: int, streak_start: str, streak_end: str, longe
   
   <!-- Current Streak Card (Featured) -->
   <rect x="177" y="20" width="140" height="160" rx="10" fill="#1f2937" opacity="0.7"/>
-  <circle cx="247" cy="70" r="38" fill="none" stroke="url(#fireGradient)" stroke-width="6" filter="url(#glow)"/>
-  <path d="M 247 45 l 6 8 l -3 0 l 0 15 l -6 0 l 0 -15 l -3 0 z" fill="url(#fireGradient)" filter="url(#glow)"/>
-  <text x="247" y="115" text-anchor="middle" fill="#ffffff" font-size="40" font-family="Segoe UI, Ubuntu, sans-serif" font-weight="700" filter="url(#glow)">{streak}</text>
-  <text x="247" y="137" text-anchor="middle" fill="url(#fireGradient)" font-size="14" font-family="Segoe UI, Ubuntu, sans-serif" font-weight="700">Current Streak</text>
-  <text x="247" y="160" text-anchor="middle" fill="#d1d5db" font-size="10" font-family="Segoe UI, Ubuntu, sans-serif">{fmt_date(streak_start)}</text>
-  <text x="247" y="172" text-anchor="middle" fill="#d1d5db" font-size="10" font-family="Segoe UI, Ubuntu, sans-serif">{fmt_date(streak_end)}</text>
+  <circle cx="247" cy="65" r="32" fill="none" stroke="url(#fireGradient)" stroke-width="5" filter="url(#glow)"/>
+  <path d="M 247 42 l 5 6 l -2.5 0 l 0 12 l -5 0 l 0 -12 l -2.5 0 z" fill="url(#fireGradient)" filter="url(#glow)"/>
+  <text x="247" y="73" text-anchor="middle" fill="#ffffff" font-size="30" font-family="Segoe UI, Ubuntu, sans-serif" font-weight="700" filter="url(#glow)">{streak}</text>
+  <text x="247" y="115" text-anchor="middle" fill="url(#fireGradient)" font-size="14" font-family="Segoe UI, Ubuntu, sans-serif" font-weight="700">Current Streak</text>
+  <text x="247" y="145" text-anchor="middle" fill="#d1d5db" font-size="10" font-family="Segoe UI, Ubuntu, sans-serif">{fmt_date(streak_start)}</text>
+  <text x="247" y="165" text-anchor="middle" fill="#d1d5db" font-size="10" font-family="Segoe UI, Ubuntu, sans-serif">{fmt_date(streak_end)}</text>
   
   <!-- Longest Streak Card -->
   <rect x="339" y="30" width="140" height="140" rx="10" fill="#1f2937" opacity="0.6"/>
