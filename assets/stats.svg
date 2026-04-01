@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="495" height="195" viewBox="0 0 495 195">
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a1b27;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#26264d;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="accentGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#667eea;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#764ba2;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <rect x="0.5" y="0.5" width="494" height="194" rx="12" fill="url(#bgGradient)" stroke="#667eea" stroke-width="2"/>
+  
+  <text x="247.5" y="35" text-anchor="middle" fill="#ffffff" font-size="16" font-family="Segoe UI, sans-serif" font-weight="700">GitHub Statistics</text>
+  
+  <g transform="translate(40, 60)">
+    <text x="0" y="20" fill="url(#accentGradient)" font-size="13" font-family="Segoe UI, sans-serif" font-weight="600">⭐ Total Stars</text>
+    <text x="180" y="20" fill="#ffffff" font-size="22" font-family="Segoe UI, sans-serif" font-weight="700">0</text>
+  </g>
+  
+  <g transform="translate(40, 95)">
+    <text x="0" y="20" fill="url(#accentGradient)" font-size="13" font-family="Segoe UI, sans-serif" font-weight="600">💻 Total Commits</text>
+    <text x="180" y="20" fill="#ffffff" font-size="22" font-family="Segoe UI, sans-serif" font-weight="700">96</text>
+  </g>
+  
+  <g transform="translate(270, 60)">
+    <text x="0" y="20" fill="url(#accentGradient)" font-size="13" font-family="Segoe UI, sans-serif" font-weight="600">📦 Public Repos</text>
+    <text x="140" y="20" fill="#ffffff" font-size="22" font-family="Segoe UI, sans-serif" font-weight="700">9</text>
+  </g>
+  
+  <g transform="translate(270, 95)">
+    <text x="0" y="20" fill="url(#accentGradient)" font-size="13" font-family="Segoe UI, sans-serif" font-weight="600">🔀 Pull Requests</text>
+    <text x="140" y="20" fill="#ffffff" font-size="22" font-family="Segoe UI, sans-serif" font-weight="700">5</text>
+  </g>
+  
+  <g transform="translate(155, 130)">
+    <text x="0" y="20" fill="url(#accentGradient)" font-size="13" font-family="Segoe UI, sans-serif" font-weight="600">🐛 Issues</text>
+    <text x="100" y="20" fill="#ffffff" font-size="22" font-family="Segoe UI, sans-serif" font-weight="700">1</text>
+  </g>
+</svg>
