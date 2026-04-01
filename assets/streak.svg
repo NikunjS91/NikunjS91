@@ -26,7 +26,7 @@
   
   <!-- Total Contributions Card -->
   <rect x="15" y="30" width="140" height="140" rx="10" fill="#1f2937" opacity="0.6"/>
-  <text x="85" y="85" text-anchor="middle" fill="#ffffff" font-size="36" font-family="Segoe UI, Ubuntu, sans-serif" font-weight="700" filter="url(#glow)">117</text>
+  <text x="85" y="85" text-anchor="middle" fill="#ffffff" font-size="36" font-family="Segoe UI, Ubuntu, sans-serif" font-weight="700" filter="url(#glow)">118</text>
   <text x="85" y="110" text-anchor="middle" fill="url(#statGradient)" font-size="13" font-family="Segoe UI, Ubuntu, sans-serif" font-weight="600">Total</text>
   <text x="85" y="125" text-anchor="middle" fill="url(#statGradient)" font-size="13" font-family="Segoe UI, Ubuntu, sans-serif" font-weight="600">Contributions</text>
   <text x="85" y="150" text-anchor="middle" fill="#9ca3af" font-size="10" font-family="Segoe UI, Ubuntu, sans-serif">2025 - Present</text>
