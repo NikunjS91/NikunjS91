@@ -118,6 +118,23 @@ An end-to-end deepfake and image manipulation detection system leveraging CLIP n
 
 ---
 
+### 🎯 [JTC-AI-Job-Orchestrator](https://github.com/NikunjS91/JTC-AI-Job-Orchestrator) — AI-Powered Career Event Orchestration Platform
+> Event-Driven Microservices Architecture · April 2026
+
+Event-driven microservices platform that ingests job-related emails, classifies career events with LLMs (interview, offer, rejection), enriches records with research context, and exposes real-time operations through dashboards. Built with production-grade observability using Prometheus and Grafana.
+
+**Architecture**: Kafka message broker, PostgreSQL storage, MinIO object storage, Airflow orchestration, containerized microservices (ingestion, classifier, researcher, notifier, orchestrator), React dashboard with real-time updates.
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![Kafka](https://img.shields.io/badge/Apache%20Kafka-231F20?style=flat-square&logo=apachekafka&logoColor=white)
+![Airflow](https://img.shields.io/badge/Apache%20Airflow-017CEE?style=flat-square&logo=apacheairflow&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
+![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=flat-square&logo=prometheus&logoColor=white)
+![Grafana](https://img.shields.io/badge/Grafana-F46800?style=flat-square&logo=grafana&logoColor=white)
+
+---
+
 ### 🧠 Real-time Sentiment Analysis Platform *(May 2023)*
 
 Deployed an end-to-end NLP solution on AWS SageMaker with scalable cloud infrastructure, achieving **76% classification accuracy**. Built a real-time data pipeline using Tweepy and Pandas; implemented LSTM and Transformer models (TensorFlow/Keras) for text classification.
