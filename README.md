@@ -10,6 +10,8 @@
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/NikunjS91)
 [![Email](https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:nikunjrajendra.shetye@pace.edu)
 
+![Profile Views](https://komarev.com/ghpvc/?username=NikunjS91&color=0A66C2&style=flat-square&label=Profile+Views)
+
 </div>
 
 ---
@@ -24,6 +26,14 @@ MS Computer Science student at **Pace University, Seidenberg School of CSIS** (D
 - 🏙️ Based in New York, NY — open to NYC-area and remote opportunities
 - 🔭 Currently building **TrueSight** — an AI-powered deepfake & image authenticity detection system (CS691 Capstone)
 - 🌱 Exploring: Terraform, Kubernetes, LLM tooling, and Systems Design
+
+---
+
+<div align="center">
+
+![Quote](https://github-readme-quotes-bay.vercel.app/quote?theme=dark&animation=grow_out_in&layout=default&font=default)
+
+</div>
 
 ---
 
