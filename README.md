@@ -18,14 +18,15 @@
 
 ## About Me
 
-MS Computer Science student at **Pace University, Seidenberg School of CSIS** (Data Science concentration, GPA 3.5/4.0, May 2026) with hands-on professional experience deploying and operating cloud infrastructure on AWS. Built production web applications using React.js and Node.js supporting 10+ retail outlets. Familiar with CI/CD, REST APIs, SQL/NoSQL databases, and Linux environments.
+MS Computer Science student at **Pace University, Seidenberg School of CSIS** (Data Science concentration, GPA 3.5/4.0, May 2026) with hands-on professional experience deploying and operating cloud infrastructure on AWS. Built production web applications using React.js and Node.js supporting 10+ retail outlets. Experienced in event-driven microservices architecture with Kafka, workflow orchestration with Airflow, and containerized deployments with Docker. Familiar with CI/CD, REST APIs, SQL/NoSQL databases, and Linux environments.
 
 - 🎓 **M.S. Computer Science** — Pace University, New York (GPA: 3.5 · Data Science Concentration · May 2026)
 - 🎓 **B.Tech in Information Technology** — Bharati Vidyapeeth Deemed University, Mumbai (GPA: 8.9/10 · July 2023)
 - 💼 Former Full Stack & Cloud Infrastructure Engineer — Shreemant Seeds Pvt. Ltd., India
 - 🏙️ Based in New York, NY — open to NYC-area and remote opportunities
 - 🔭 Currently building **TrueSight** — an AI-powered deepfake & image authenticity detection system (CS691 Capstone)
-- 🌱 Exploring: Terraform, Kubernetes, LLM tooling, and Systems Design
+- 🚀 Recently launched **JTC-AI-Job-Orchestrator** — event-driven microservices platform with LLM-powered career event classification
+- 🌱 Exploring: Kubernetes, LLM orchestration, Event-Driven Architecture, and Distributed Systems Design
 
 ---
 
