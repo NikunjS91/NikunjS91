@@ -21,12 +21,12 @@
   
   <g transform="translate(40, 95)">
     <text x="0" y="20" fill="url(#accentGradient)" font-size="13" font-family="Segoe UI, sans-serif" font-weight="600">💻 Total Commits</text>
-    <text x="180" y="20" fill="#ffffff" font-size="22" font-family="Segoe UI, sans-serif" font-weight="700">117</text>
+    <text x="180" y="20" fill="#ffffff" font-size="22" font-family="Segoe UI, sans-serif" font-weight="700">118</text>
   </g>
   
   <g transform="translate(270, 60)">
     <text x="0" y="20" fill="url(#accentGradient)" font-size="13" font-family="Segoe UI, sans-serif" font-weight="600">📦 Public Repos</text>
-    <text x="140" y="20" fill="#ffffff" font-size="22" font-family="Segoe UI, sans-serif" font-weight="700">11</text>
+    <text x="140" y="20" fill="#ffffff" font-size="22" font-family="Segoe UI, sans-serif" font-weight="700">12</text>
   </g>
   
   <g transform="translate(270, 95)">
