@@ -128,6 +128,22 @@ An end-to-end deepfake and image manipulation detection system leveraging CLIP n
 
 ---
 
+### ☁️ [RepoLaunch](https://github.com/NikunjS91/RepoLaunch) — Vercel-like Deployment Platform
+
+> Personal Cloud Project · Microservices + AWS
+
+A **mini Vercel clone** that deploys any GitHub repo to the cloud via containerized builds. Spins up **AWS ECS/Fargate** tasks to clone and build repos, uploads static output to **S3**, serves it through a custom **subdomain-aware reverse proxy**, and streams **real-time build logs** to the browser via **Redis Pub/Sub + Socket.io**. Three decoupled microservices: API server, build runner, and proxy.
+
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
+![AWS ECS](https://img.shields.io/badge/AWS_ECS-FF9900?style=flat-square&logo=amazonecs&logoColor=white)
+![AWS S3](https://img.shields.io/badge/AWS_S3-569A31?style=flat-square&logo=amazons3&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
+![Socket.io](https://img.shields.io/badge/Socket.io-010101?style=flat-square&logo=socketdotio&logoColor=white)
+![Prisma](https://img.shields.io/badge/Prisma-2D3748?style=flat-square&logo=prisma&logoColor=white)
+
+---
+
 ### 🎯 [JTC-AI-Job-Orchestrator](https://github.com/NikunjS91/JTC-AI-Job-Orchestrator) — AI-Powered Career Event Orchestration Platform
 > Event-Driven Microservices Architecture · April 2026
 
