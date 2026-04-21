@@ -12,7 +12,7 @@
   <g transform="translate(40, 65)">
     <circle cx="5" cy="5" r="5" fill="#DA5B0B"/>
     <text x="20" y="10" fill="#d1d5db" font-size="12" font-family="Segoe UI, sans-serif">Jupyter Notebook</text>
-    <text x="420" y="10" fill="#ffffff" font-size="12" font-family="Segoe UI, sans-serif" font-weight="600">70.9%</text>
+    <text x="420" y="10" fill="#ffffff" font-size="12" font-family="Segoe UI, sans-serif" font-weight="600">71.0%</text>
   </g>
   <g transform="translate(40, 90)">
     <circle cx="5" cy="5" r="5" fill="#3572A5"/>
