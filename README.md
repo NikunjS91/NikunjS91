@@ -212,29 +212,6 @@ Exploratory Data Analysis of the Sleep Health and Lifestyle dataset as part of C
 
 ---
 
-## 💼 Work Experience
-
-### Full Stack & Cloud Infrastructure Engineer
-**Shreemant Seeds Private Limited** · Mumbai, Maharashtra, India · *June 2023 – July 2024*
-
-- Built and maintained the company's e-commerce website using **React.js and Node.js**, supporting operations across **10+ retail outlets** nationwide
-- Managed end-to-end **AWS cloud infrastructure** (EC2, S3, Route53, CloudWatch), ensuring high availability for production workloads
-- Implemented **CI/CD pipelines** to automate deployments, reducing manual release overhead and improving deployment reliability
-- Built RESTful backend APIs and optimized database queries, improving page load times and data retrieval performance
-- Monitored system health with **CloudWatch** and resolved infrastructure issues proactively before they affected customers
-- Developed **Python and SQL dashboards** to track sales performance across multiple regions and retail outlets
-
----
-
-### Teaching Assistant & Volunteer Developer
-**Bharati Vidyapeeth Deemed University** · Mumbai, India · *September 2022 – May 2023*
-
-- Mentored **40–60 non-technical students** in Python, SQL, and programming fundamentals through the Code Chef student organization
-- Contributed to full-stack development of the college LMS portal, student website, and internal accounting system as part of a 4-person team
-- Designed and delivered hands-on coding workshops, improving student confidence and technical proficiency in core CS concepts
-
----
-
 ## 📊 GitHub Stats
 
 <div align="center">
