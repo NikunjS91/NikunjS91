@@ -4,11 +4,11 @@
 
 ### Full Stack & Cloud Infrastructure Engineer · MS Computer Science @ Pace University
 
-**Actively seeking Summer 2026 SWE / Cloud / DevOps Internships — New York City**
+**Seeking full-time SWE / Cloud / DevOps roles — available June 23, 2026 (STEM OPT · 36 months · no sponsorship required)**
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/nikunj-shetye)
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/NikunjS91)
-[![Email](https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:nikunjrajendra.shetye@pace.edu)
+[![Email](https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:nikunj.shetye@gmail.com)
 
 ![Profile Views](https://komarev.com/ghpvc/?username=NikunjS91&color=0A66C2&style=flat-square&label=Profile+Views)
 
@@ -23,7 +23,7 @@ MS Computer Science student at **Pace University, Seidenberg School of CSIS** (D
 - 🎓 **M.S. Computer Science** — Pace University, New York (GPA: 3.84 · Data Science Concentration · May 2026)
 - 🎓 **B.Tech in Information Technology** — Bharati Vidyapeeth Deemed University, Mumbai (GPA: 8.9/10 · July 2023)
 - 💼 Former Full Stack & Cloud Infrastructure Engineer — Shreemant Seeds Pvt. Ltd., India
-- 🏙️ Based in New York, NY — open to NYC-area and remote opportunities
+- 🏙️ Based in Jersey City, NJ (NYC metro) — open to onsite NYC/NJ and remote opportunities
 - 🔭 Currently building **TrueSight** — an AI-powered deepfake & image authenticity detection system (CS691 Capstone)
 - 🚀 Recently launched **JTC-AI-Job-Orchestrator** — event-driven microservices platform with LLM-powered career event classification
 - 🌱 Exploring: Kubernetes, LLM orchestration, Event-Driven Architecture, and Distributed Systems Design
@@ -241,6 +241,6 @@ Exploratory Data Analysis of the Sleep Health and Lifestyle dataset as part of C
 *Open to full-time, available June 23 2026 (STEM OPT) opportunities in SWE, Cloud Engineering, and DevOps — New York, NY*
 
 [![LinkedIn](https://img.shields.io/badge/Let's%20Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/nikunj-shetye)
-[![Email](https://img.shields.io/badge/Get%20In%20Touch-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:nikunjrajendra.shetye@pace.edu)
+[![Email](https://img.shields.io/badge/Get%20In%20Touch-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:nikunj.shetye@gmail.com)
 
 </div>
