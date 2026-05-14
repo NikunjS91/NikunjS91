@@ -239,7 +239,7 @@ Exploratory Data Analysis of the Sleep Health and Lifestyle dataset as part of C
 
 <div align="center">
 
-*Open to full-time, available June 23 2026 (STEM OPT) opportunities in SWE, Cloud Engineering, and DevOps — New York, NY*
+*Open to full-time, available June 23 2026 (STEM OPT) opportunities in SWE, Cloud Engineering, and DevOps — Jersey City, NJ (NYC metro)*
 
 [![LinkedIn](https://img.shields.io/badge/Let's%20Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/nikunj-shetye)
 [![Email](https://img.shields.io/badge/Get%20In%20Touch-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:nikunj.shetye@gmail.com)
