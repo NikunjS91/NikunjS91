@@ -33,7 +33,7 @@ MS Computer Science graduate at **Pace University, Seidenberg School of CSIS** (
 
 <div align="center">
 
-![Quote](https://github-readme-quotes-bay.vercel.app/quote?theme=dark&animation=grow_out_in&layout=default&font=default)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=16&pause=3000&color=58A6FF&center=true&vCenter=true&width=600&lines=%22Talk+is+cheap.+Show+me+the+code.%22+%E2%80%94+Linus+Torvalds)](https://git.io/typing-svg)
 
 </div>
 
@@ -231,7 +231,11 @@ Exploratory Data Analysis of the Sleep Health and Lifestyle dataset as part of C
 
 <div align="center">
 
-![Snake animation](https://raw.githubusercontent.com/NikunjS91/NikunjS91/output/github-contribution-grid-snake-dark.svg)
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/NikunjS91/NikunjS91/output/github-contribution-grid-snake-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/NikunjS91/NikunjS91/output/github-contribution-grid-snake.svg">
+  <img alt="GitHub contribution grid snake animation" src="https://raw.githubusercontent.com/NikunjS91/NikunjS91/output/github-contribution-grid-snake.svg">
+</picture>
 
 </div>
 
