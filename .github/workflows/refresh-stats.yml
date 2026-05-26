@@ -20,11 +20,30 @@ jobs:
       - name: Add cache-busting timestamp to stats badges
         run: |
           TIMESTAMP=$(date +%s)
-          
-          # Update README with timestamp parameter for cache busting
-          sed -i "s|github-profile-summary-cards.vercel.app/api/cards/stats?username=NikunjS91&theme=github_dark&cache_seconds=1800&exclude_repo=.*\"|github-profile-summary-cards.vercel.app/api/cards/stats?username=NikunjS91\&theme=github_dark\&cache_seconds=1800\&exclude_repo=\&t=${TIMESTAMP}\"|" README.md
-          sed -i "s|github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=NikunjS91&theme=github_dark&cache_seconds=1800.*\"|github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=NikunjS91\&theme=github_dark\&cache_seconds=1800\&t=${TIMESTAMP}\"|" README.md
-          sed -i "s|streak-stats.demolab.com?user=NikunjS91&theme=dark&hide_border=true&date_format=j%20M%5B%2C%5D%20Y&cache_seconds=1800.*\"|streak-stats.demolab.com?user=NikunjS91\&theme=dark\&hide_border=true\&date_format=j%20M%5B%2C%5D%20Y\&cache_seconds=1800\&t=${TIMESTAMP}\"|" README.md
+          python3 - "$TIMESTAMP" <<'EOF'
+          import re
+          import sys
+
+          ts = sys.argv[1]
+
+          with open("README.md", encoding="utf-8") as f:
+              content = f.read()
+
+          # Match Markdown image/link URLs pointing at the badge services.
+          pattern = re.compile(
+              r'\((https://(?:github-profile-summary-cards\.vercel\.app'
+              r'|streak-stats\.demolab\.com)[^)]*)\)'
+          )
+
+          def bust(match):
+              url = re.sub(r'&t=\d+', '', match.group(1))  # strip old timestamp
+              return f'({url}&t={ts})'
+
+          new_content = pattern.sub(bust, content)
+
+          with open("README.md", "w", encoding="utf-8") as f:
+              f.write(new_content)
+          EOF
 
       - name: Commit updated timestamps
         run: |
