@@ -12,12 +12,12 @@
   <g transform="translate(40, 65)">
     <circle cx="5" cy="5" r="5" fill="#DA5B0B"/>
     <text x="20" y="10" fill="#d1d5db" font-size="12" font-family="Segoe UI, sans-serif">Jupyter Notebook</text>
-    <text x="420" y="10" fill="#ffffff" font-size="12" font-family="Segoe UI, sans-serif" font-weight="600">51.7%</text>
+    <text x="420" y="10" fill="#ffffff" font-size="12" font-family="Segoe UI, sans-serif" font-weight="600">52.0%</text>
   </g>
   <g transform="translate(40, 90)">
     <circle cx="5" cy="5" r="5" fill="#3572A5"/>
     <text x="20" y="10" fill="#d1d5db" font-size="12" font-family="Segoe UI, sans-serif">Python</text>
-    <text x="420" y="10" fill="#ffffff" font-size="12" font-family="Segoe UI, sans-serif" font-weight="600">22.8%</text>
+    <text x="420" y="10" fill="#ffffff" font-size="12" font-family="Segoe UI, sans-serif" font-weight="600">22.7%</text>
   </g>
   <g transform="translate(40, 115)">
     <circle cx="5" cy="5" r="5" fill="#f1e05a"/>
@@ -27,11 +27,11 @@
   <g transform="translate(40, 140)">
     <circle cx="5" cy="5" r="5" fill="#858585"/>
     <text x="20" y="10" fill="#d1d5db" font-size="12" font-family="Segoe UI, sans-serif">Java</text>
-    <text x="420" y="10" fill="#ffffff" font-size="12" font-family="Segoe UI, sans-serif" font-weight="600">8.6%</text>
+    <text x="420" y="10" fill="#ffffff" font-size="12" font-family="Segoe UI, sans-serif" font-weight="600">8.5%</text>
   </g>
   <g transform="translate(40, 165)">
     <circle cx="5" cy="5" r="5" fill="#2b7489"/>
     <text x="20" y="10" fill="#d1d5db" font-size="12" font-family="Segoe UI, sans-serif">TypeScript</text>
-    <text x="420" y="10" fill="#ffffff" font-size="12" font-family="Segoe UI, sans-serif" font-weight="600">3.4%</text>
+    <text x="420" y="10" fill="#ffffff" font-size="12" font-family="Segoe UI, sans-serif" font-weight="600">3.3%</text>
   </g>
 </svg>
