@@ -217,11 +217,11 @@ Exploratory Data Analysis of the Sleep Health and Lifestyle dataset as part of C
 
 <div align="center">
 
-[![GitHub Stats](https://github-profile-summary-cards.vercel.app/api/cards/stats?username=NikunjS91&theme=github_dark&cache_seconds=1800&exclude_repo=&t=1787387686)](https://github.com/NikunjS91)
+[![GitHub Stats](https://github-profile-summary-cards.vercel.app/api/cards/stats?username=NikunjS91&theme=github_dark&cache_seconds=1800&exclude_repo=&t=1787394475)](https://github.com/NikunjS91)
 
-[![Top Languages](https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=NikunjS91&theme=github_dark&cache_seconds=1800&t=1787387686)](https://github.com/NikunjS91)
+[![Top Languages](https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=NikunjS91&theme=github_dark&cache_seconds=1800&t=1787394475)](https://github.com/NikunjS91)
 
-[![GitHub Streak](https://streak-stats.demolab.com?user=NikunjS91&theme=dark&hide_border=true&date_format=j%20M%5B%2C%5D%20Y&cache_seconds=1800&t=1787387686)](https://git.io/streak-stats)
+[![GitHub Streak](https://streak-stats.demolab.com?user=NikunjS91&theme=dark&hide_border=true&date_format=j%20M%5B%2C%5D%20Y&cache_seconds=1800&t=1787394475)](https://git.io/streak-stats)
 
 </div>
 
