@@ -21,7 +21,7 @@ jobs:
     steps:
       # Generate snake SVG from GitHub contribution graph
       - name: Generate github-contribution-grid-snake.svg
-        uses: Platane/snk/svg-only@v3
+        uses: Platane/snk/svg-only@d8f6715049803e982ee5ff501b6b9b7d5deeb09b  # v3
         with:
           github_user_name: ${{ github.repository_owner }}
           outputs: |
@@ -34,7 +34,7 @@ jobs:
       # Files will be available at:
       # https://raw.githubusercontent.com/NikunjS91/NikunjS91/output/github-contribution-grid-snake-dark.svg
       - name: Push snake SVG to output branch
-        uses: crazy-max/ghaction-github-pages@v3.1.0
+        uses: crazy-max/ghaction-github-pages@c0d7ff0487ee0415efb7f32dab10ea880330b1dd  # v3.1.0
         with:
           target_branch: output
           build_dir: dist

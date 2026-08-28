@@ -7,6 +7,13 @@ from pathlib import Path
 from collections import Counter
 
 
+_FONT = "Segoe UI, Ubuntu, sans-serif"
+
+
+def _esc(s: str) -> str:
+    return s.replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;")
+
+
 def run_graphql_query(query: str, fields: dict[str, str]) -> dict:
     cmd = ["gh", "api", "graphql", "-f", f"query={query}"]
     for key, value in fields.items():
@@ -61,6 +68,7 @@ def longest_streak(days: list[dict]) -> tuple[int, str, str]:
 
 
 def build_streak_svg(total: int, streak: int, streak_start: str, streak_end: str, longest: int, longest_start: str, longest_end: str) -> str:
+    since_year = streak_start[:4] if streak_start else str(dt.datetime.now().year)
     return f"""<svg xmlns="http://www.w3.org/2000/svg" width="495" height="195" viewBox="0 0 495 195" role="img" aria-label="GitHub streak stats">
   <defs>
     <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
@@ -88,25 +96,25 @@ def build_streak_svg(total: int, streak: int, streak_start: str, streak_end: str
   <rect x="0.5" y="0.5" width="494" height="194" rx="12" fill="url(#bgGradient)" stroke="#667eea" stroke-width="2"/>
 
   <rect x="15" y="30" width="140" height="140" rx="10" fill="#1f2937" opacity="0.6"/>
-  <text x="85" y="85" text-anchor="middle" fill="#ffffff" font-size="36" font-family="Segoe UI, Ubuntu, sans-serif" font-weight="700" filter="url(#glow)">{total}</text>
-  <text x="85" y="110" text-anchor="middle" fill="url(#statGradient)" font-size="13" font-family="Segoe UI, Ubuntu, sans-serif" font-weight="600">Total</text>
-  <text x="85" y="125" text-anchor="middle" fill="url(#statGradient)" font-size="13" font-family="Segoe UI, Ubuntu, sans-serif" font-weight="600">Contributions</text>
-  <text x="85" y="150" text-anchor="middle" fill="#9ca3af" font-size="10" font-family="Segoe UI, Ubuntu, sans-serif">2025 - Present</text>
+  <text x="85" y="85" text-anchor="middle" fill="#ffffff" font-size="36" font-family="{_FONT}" font-weight="700" filter="url(#glow)">{total}</text>
+  <text x="85" y="110" text-anchor="middle" fill="url(#statGradient)" font-size="13" font-family="{_FONT}" font-weight="600">Total</text>
+  <text x="85" y="125" text-anchor="middle" fill="url(#statGradient)" font-size="13" font-family="{_FONT}" font-weight="600">Contributions</text>
+  <text x="85" y="150" text-anchor="middle" fill="#9ca3af" font-size="10" font-family="{_FONT}">{since_year} - Present</text>
 
   <rect x="177" y="20" width="140" height="160" rx="10" fill="#1f2937" opacity="0.7"/>
   <circle cx="247" cy="65" r="32" fill="none" stroke="url(#fireGradient)" stroke-width="5" filter="url(#glow)"/>
   <path d="M 247 42 l 5 6 l -2.5 0 l 0 12 l -5 0 l 0 -12 l -2.5 0 z" fill="url(#fireGradient)" filter="url(#glow)"/>
-  <text x="247" y="73" text-anchor="middle" fill="#ffffff" font-size="30" font-family="Segoe UI, Ubuntu, sans-serif" font-weight="700" filter="url(#glow)">{streak}</text>
-  <text x="247" y="115" text-anchor="middle" fill="url(#fireGradient)" font-size="14" font-family="Segoe UI, Ubuntu, sans-serif" font-weight="700">Current Streak</text>
-  <text x="247" y="145" text-anchor="middle" fill="#d1d5db" font-size="10" font-family="Segoe UI, Ubuntu, sans-serif">{fmt_date(streak_start)}</text>
-  <text x="247" y="165" text-anchor="middle" fill="#d1d5db" font-size="10" font-family="Segoe UI, Ubuntu, sans-serif">{fmt_date(streak_end)}</text>
+  <text x="247" y="73" text-anchor="middle" fill="#ffffff" font-size="30" font-family="{_FONT}" font-weight="700" filter="url(#glow)">{streak}</text>
+  <text x="247" y="115" text-anchor="middle" fill="url(#fireGradient)" font-size="14" font-family="{_FONT}" font-weight="700">Current Streak</text>
+  <text x="247" y="145" text-anchor="middle" fill="#d1d5db" font-size="10" font-family="{_FONT}">{_esc(fmt_date(streak_start))}</text>
+  <text x="247" y="165" text-anchor="middle" fill="#d1d5db" font-size="10" font-family="{_FONT}">{_esc(fmt_date(streak_end))}</text>
 
   <rect x="339" y="30" width="140" height="140" rx="10" fill="#1f2937" opacity="0.6"/>
-  <text x="409" y="85" text-anchor="middle" fill="#ffffff" font-size="36" font-family="Segoe UI, Ubuntu, sans-serif" font-weight="700" filter="url(#glow)">{longest}</text>
-  <text x="409" y="110" text-anchor="middle" fill="url(#statGradient)" font-size="13" font-family="Segoe UI, Ubuntu, sans-serif" font-weight="600">Longest</text>
-  <text x="409" y="125" text-anchor="middle" fill="url(#statGradient)" font-size="13" font-family="Segoe UI, Ubuntu, sans-serif" font-weight="600">Streak</text>
-  <text x="409" y="145" text-anchor="middle" fill="#9ca3af" font-size="10" font-family="Segoe UI, Ubuntu, sans-serif">{fmt_date(longest_start)}</text>
-  <text x="409" y="157" text-anchor="middle" fill="#9ca3af" font-size="10" font-family="Segoe UI, Ubuntu, sans-serif">{fmt_date(longest_end)}</text>
+  <text x="409" y="85" text-anchor="middle" fill="#ffffff" font-size="36" font-family="{_FONT}" font-weight="700" filter="url(#glow)">{longest}</text>
+  <text x="409" y="110" text-anchor="middle" fill="url(#statGradient)" font-size="13" font-family="{_FONT}" font-weight="600">Longest</text>
+  <text x="409" y="125" text-anchor="middle" fill="url(#statGradient)" font-size="13" font-family="{_FONT}" font-weight="600">Streak</text>
+  <text x="409" y="145" text-anchor="middle" fill="#9ca3af" font-size="10" font-family="{_FONT}">{_esc(fmt_date(longest_start))}</text>
+  <text x="409" y="157" text-anchor="middle" fill="#9ca3af" font-size="10" font-family="{_FONT}">{_esc(fmt_date(longest_end))}</text>
 </svg>
 """
 
@@ -126,31 +134,31 @@ def build_stats_svg(stars: int, commits: int, prs: int, issues: int, repos: int)
   
   <rect x="0.5" y="0.5" width="494" height="194" rx="12" fill="url(#bgGradient)" stroke="#667eea" stroke-width="2"/>
   
-  <text x="247.5" y="35" text-anchor="middle" fill="#ffffff" font-size="16" font-family="Segoe UI, sans-serif" font-weight="700">GitHub Statistics</text>
+  <text x="247.5" y="35" text-anchor="middle" fill="#ffffff" font-size="16" font-family="{_FONT}" font-weight="700">GitHub Statistics</text>
   
   <g transform="translate(40, 60)">
-    <text x="0" y="20" fill="url(#accentGradient)" font-size="13" font-family="Segoe UI, sans-serif" font-weight="600">⭐ Total Stars</text>
-    <text x="180" y="20" fill="#ffffff" font-size="22" font-family="Segoe UI, sans-serif" font-weight="700">{stars}</text>
+    <text x="0" y="20" fill="url(#accentGradient)" font-size="13" font-family="{_FONT}" font-weight="600">⭐ Total Stars</text>
+    <text x="180" y="20" fill="#ffffff" font-size="22" font-family="{_FONT}" font-weight="700">{stars}</text>
   </g>
   
   <g transform="translate(40, 95)">
-    <text x="0" y="20" fill="url(#accentGradient)" font-size="13" font-family="Segoe UI, sans-serif" font-weight="600">💻 Total Commits</text>
-    <text x="180" y="20" fill="#ffffff" font-size="22" font-family="Segoe UI, sans-serif" font-weight="700">{commits}</text>
+    <text x="0" y="20" fill="url(#accentGradient)" font-size="13" font-family="{_FONT}" font-weight="600">💻 Total Commits</text>
+    <text x="180" y="20" fill="#ffffff" font-size="22" font-family="{_FONT}" font-weight="700">{commits}</text>
   </g>
   
   <g transform="translate(270, 60)">
-    <text x="0" y="20" fill="url(#accentGradient)" font-size="13" font-family="Segoe UI, sans-serif" font-weight="600">📦 Public Repos</text>
-    <text x="140" y="20" fill="#ffffff" font-size="22" font-family="Segoe UI, sans-serif" font-weight="700">{repos}</text>
+    <text x="0" y="20" fill="url(#accentGradient)" font-size="13" font-family="{_FONT}" font-weight="600">📦 Public Repos</text>
+    <text x="140" y="20" fill="#ffffff" font-size="22" font-family="{_FONT}" font-weight="700">{repos}</text>
   </g>
   
   <g transform="translate(270, 95)">
-    <text x="0" y="20" fill="url(#accentGradient)" font-size="13" font-family="Segoe UI, sans-serif" font-weight="600">🔀 Pull Requests</text>
-    <text x="140" y="20" fill="#ffffff" font-size="22" font-family="Segoe UI, sans-serif" font-weight="700">{prs}</text>
+    <text x="0" y="20" fill="url(#accentGradient)" font-size="13" font-family="{_FONT}" font-weight="600">🔀 Pull Requests</text>
+    <text x="140" y="20" fill="#ffffff" font-size="22" font-family="{_FONT}" font-weight="700">{prs}</text>
   </g>
   
   <g transform="translate(155, 130)">
-    <text x="0" y="20" fill="url(#accentGradient)" font-size="13" font-family="Segoe UI, sans-serif" font-weight="600">🐛 Issues</text>
-    <text x="100" y="20" fill="#ffffff" font-size="22" font-family="Segoe UI, sans-serif" font-weight="700">{issues}</text>
+    <text x="0" y="20" fill="url(#accentGradient)" font-size="13" font-family="{_FONT}" font-weight="600">🐛 Issues</text>
+    <text x="100" y="20" fill="#ffffff" font-size="22" font-family="{_FONT}" font-weight="700">{issues}</text>
   </g>
 </svg>
 """
@@ -180,7 +188,7 @@ def build_languages_svg(languages: dict[str, int]) -> str:
   
   <rect x="0.5" y="0.5" width="494" height="194" rx="12" fill="url(#bgGradient)" stroke="#667eea" stroke-width="2"/>
   
-  <text x="247.5" y="35" text-anchor="middle" fill="#ffffff" font-size="16" font-family="Segoe UI, sans-serif" font-weight="700">Top Languages</text>
+  <text x="247.5" y="35" text-anchor="middle" fill="#ffffff" font-size="16" font-family="{_FONT}" font-weight="700">Top Languages</text>
 """]
     
     y_pos = 65
@@ -190,8 +198,8 @@ def build_languages_svg(languages: dict[str, int]) -> str:
         
         svg_parts.append(f"""  <g transform="translate(40, {y_pos})">
     <circle cx="5" cy="5" r="5" fill="{color}"/>
-    <text x="20" y="10" fill="#d1d5db" font-size="12" font-family="Segoe UI, sans-serif">{lang}</text>
-    <text x="420" y="10" fill="#ffffff" font-size="12" font-family="Segoe UI, sans-serif" font-weight="600">{pct:.1f}%</text>
+    <text x="20" y="10" fill="#d1d5db" font-size="12" font-family="{_FONT}">{lang}</text>
+    <text x="420" y="10" fill="#ffffff" font-size="12" font-family="{_FONT}" font-weight="600">{pct:.1f}%</text>
   </g>
 """)
         y_pos += 25
