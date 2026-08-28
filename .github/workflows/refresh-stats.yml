@@ -29,17 +29,25 @@ jobs:
           with open("README.md", encoding="utf-8") as f:
               content = f.read()
 
-          # Match Markdown image/link URLs pointing at the badge services.
-          pattern = re.compile(
-              r'\((https://(?:github-profile-summary-cards\.vercel\.app'
-              r'|streak-stats\.demolab\.com)[^)]*)\)'
+          # Markdown image/link URLs for third-party badge services.
+          md_pattern = re.compile(
+              r'\((https://github-profile-summary-cards\.vercel\.app[^)]*)\)'
           )
 
-          def bust(match):
-              url = re.sub(r'&t=\d+', '', match.group(1))  # strip old timestamp
+          # HTML img src for the locally-generated streak SVG.
+          img_pattern = re.compile(
+              r'(src="https://raw\.githubusercontent\.com/NikunjS91/NikunjS91/main/assets/streak\.svg)[?][^"]*"'
+          )
+
+          def bust_md(match):
+              url = re.sub(r'[&?]t=\d+', '', match.group(1))
               return f'({url}&t={ts})'
 
-          new_content = pattern.sub(bust, content)
+          def bust_img(match):
+              return f'{match.group(1)}?t={ts}"'
+
+          new_content = md_pattern.sub(bust_md, content)
+          new_content = img_pattern.sub(bust_img, new_content)
 
           with open("README.md", "w", encoding="utf-8") as f:
               f.write(new_content)

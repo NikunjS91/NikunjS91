@@ -221,7 +221,7 @@ Exploratory Data Analysis of the Sleep Health and Lifestyle dataset as part of C
 
 [![Top Languages](https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=NikunjS91&theme=github_dark&cache_seconds=1800&t=1787943022)](https://github.com/NikunjS91)
 
-[![GitHub Streak](https://streak-stats.demolab.com?user=NikunjS91&theme=dark&hide_border=true&date_format=j%20M%5B%2C%5D%20Y&cache_seconds=1800&t=1787943022)](https://git.io/streak-stats)
+<img src="https://raw.githubusercontent.com/NikunjS91/NikunjS91/main/assets/streak.svg?t=1787943022" alt="GitHub Streak Stats" />
 
 </div>
 
