@@ -15,7 +15,7 @@ jobs:
       contents: write
     steps:
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262  # v4
 
       - name: Add cache-busting timestamp to stats badges
         run: |
@@ -25,6 +25,7 @@ jobs:
           import sys
 
           ts = sys.argv[1]
+          assert ts.isdigit(), f"Unexpected timestamp: {ts!r}"
 
           with open("README.md", encoding="utf-8") as f:
               content = f.read()
@@ -36,12 +37,13 @@ jobs:
 
           # HTML img src for the locally-generated streak SVG.
           img_pattern = re.compile(
-              r'(src="https://raw\.githubusercontent\.com/NikunjS91/NikunjS91/main/assets/streak\.svg)[?][^"]*"'
+              r'(src="https://raw\.githubusercontent\.com/NikunjS91/NikunjS91/main/assets/streak\.svg)(?:[?][^"]*)?"'
           )
 
           def bust_md(match):
-              url = re.sub(r'[&?]t=\d+', '', match.group(1))
-              return f'({url}&t={ts})'
+              url = re.sub(r'[?&]t=\d+', '', match.group(1)).rstrip('&').rstrip('?')
+              sep = '&' if '?' in url else '?'
+              return f'({url}{sep}t={ts})'
 
           def bust_img(match):
               return f'{match.group(1)}?t={ts}"'
