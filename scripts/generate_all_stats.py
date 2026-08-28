@@ -61,7 +61,7 @@ def longest_streak(days: list[dict]) -> tuple[int, str, str]:
 
 
 def build_streak_svg(total: int, streak: int, streak_start: str, streak_end: str, longest: int, longest_start: str, longest_end: str) -> str:
-    return f"""<svg xmlns="http://www.w3.org/2000/svg" width="495" height="195" viewBox="0 0 495 195">
+    return f"""<svg xmlns="http://www.w3.org/2000/svg" width="495" height="195" viewBox="0 0 495 195" role="img" aria-label="GitHub streak stats">
   <defs>
     <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" style="stop-color:#1a1b27;stop-opacity:1" />
@@ -76,26 +76,37 @@ def build_streak_svg(total: int, streak: int, streak_start: str, streak_end: str
       <stop offset="0%" style="stop-color:#667eea;stop-opacity:1" />
       <stop offset="100%" style="stop-color:#764ba2;stop-opacity:1" />
     </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
   </defs>
-  
+
   <rect x="0.5" y="0.5" width="494" height="194" rx="12" fill="url(#bgGradient)" stroke="#667eea" stroke-width="2"/>
-  
-  <rect x="15" y="40" width="140" height="120" rx="10" fill="#1f2937" opacity="0.6"/>
-  <text x="85" y="80" text-anchor="middle" fill="#ffffff" font-size="32" font-family="Segoe UI, sans-serif" font-weight="700">{total}</text>
-  <text x="85" y="105" text-anchor="middle" fill="url(#statGradient)" font-size="12" font-family="Segoe UI, sans-serif" font-weight="600">Total Contributions</text>
-  <text x="85" y="140" text-anchor="middle" fill="#9ca3af" font-size="9" font-family="Segoe UI, sans-serif">2025 - Present</text>
-  
-  <rect x="177" y="30" width="140" height="140" rx="10" fill="#1f2937" opacity="0.7"/>
-  <text x="247" y="75" text-anchor="middle" fill="#ffffff" font-size="40" font-family="Segoe UI, sans-serif" font-weight="700">{streak}</text>
-  <text x="247" y="105" text-anchor="middle" fill="url(#fireGradient)" font-size="13" font-family="Segoe UI, sans-serif" font-weight="700">🔥 Current Streak</text>
-  <text x="247" y="140" text-anchor="middle" fill="#d1d5db" font-size="9" font-family="Segoe UI, sans-serif">{fmt_date(streak_start)}</text>
-  <text x="247" y="155" text-anchor="middle" fill="#d1d5db" font-size="9" font-family="Segoe UI, sans-serif">{fmt_date(streak_end)}</text>
-  
-  <rect x="339" y="40" width="140" height="120" rx="10" fill="#1f2937" opacity="0.6"/>
-  <text x="409" y="80" text-anchor="middle" fill="#ffffff" font-size="32" font-family="Segoe UI, sans-serif" font-weight="700">{longest}</text>
-  <text x="409" y="105" text-anchor="middle" fill="url(#statGradient)" font-size="12" font-family="Segoe UI, sans-serif" font-weight="600">Longest Streak</text>
-  <text x="409" y="133" text-anchor="middle" fill="#9ca3af" font-size="9" font-family="Segoe UI, sans-serif">{fmt_date(longest_start)}</text>
-  <text x="409" y="145" text-anchor="middle" fill="#9ca3af" font-size="9" font-family="Segoe UI, sans-serif">{fmt_date(longest_end)}</text>
+
+  <rect x="15" y="30" width="140" height="140" rx="10" fill="#1f2937" opacity="0.6"/>
+  <text x="85" y="85" text-anchor="middle" fill="#ffffff" font-size="36" font-family="Segoe UI, Ubuntu, sans-serif" font-weight="700" filter="url(#glow)">{total}</text>
+  <text x="85" y="110" text-anchor="middle" fill="url(#statGradient)" font-size="13" font-family="Segoe UI, Ubuntu, sans-serif" font-weight="600">Total</text>
+  <text x="85" y="125" text-anchor="middle" fill="url(#statGradient)" font-size="13" font-family="Segoe UI, Ubuntu, sans-serif" font-weight="600">Contributions</text>
+  <text x="85" y="150" text-anchor="middle" fill="#9ca3af" font-size="10" font-family="Segoe UI, Ubuntu, sans-serif">2025 - Present</text>
+
+  <rect x="177" y="20" width="140" height="160" rx="10" fill="#1f2937" opacity="0.7"/>
+  <circle cx="247" cy="65" r="32" fill="none" stroke="url(#fireGradient)" stroke-width="5" filter="url(#glow)"/>
+  <path d="M 247 42 l 5 6 l -2.5 0 l 0 12 l -5 0 l 0 -12 l -2.5 0 z" fill="url(#fireGradient)" filter="url(#glow)"/>
+  <text x="247" y="73" text-anchor="middle" fill="#ffffff" font-size="30" font-family="Segoe UI, Ubuntu, sans-serif" font-weight="700" filter="url(#glow)">{streak}</text>
+  <text x="247" y="115" text-anchor="middle" fill="url(#fireGradient)" font-size="14" font-family="Segoe UI, Ubuntu, sans-serif" font-weight="700">Current Streak</text>
+  <text x="247" y="145" text-anchor="middle" fill="#d1d5db" font-size="10" font-family="Segoe UI, Ubuntu, sans-serif">{fmt_date(streak_start)}</text>
+  <text x="247" y="165" text-anchor="middle" fill="#d1d5db" font-size="10" font-family="Segoe UI, Ubuntu, sans-serif">{fmt_date(streak_end)}</text>
+
+  <rect x="339" y="30" width="140" height="140" rx="10" fill="#1f2937" opacity="0.6"/>
+  <text x="409" y="85" text-anchor="middle" fill="#ffffff" font-size="36" font-family="Segoe UI, Ubuntu, sans-serif" font-weight="700" filter="url(#glow)">{longest}</text>
+  <text x="409" y="110" text-anchor="middle" fill="url(#statGradient)" font-size="13" font-family="Segoe UI, Ubuntu, sans-serif" font-weight="600">Longest</text>
+  <text x="409" y="125" text-anchor="middle" fill="url(#statGradient)" font-size="13" font-family="Segoe UI, Ubuntu, sans-serif" font-weight="600">Streak</text>
+  <text x="409" y="145" text-anchor="middle" fill="#9ca3af" font-size="10" font-family="Segoe UI, Ubuntu, sans-serif">{fmt_date(longest_start)}</text>
+  <text x="409" y="157" text-anchor="middle" fill="#9ca3af" font-size="10" font-family="Segoe UI, Ubuntu, sans-serif">{fmt_date(longest_end)}</text>
 </svg>
 """
 
