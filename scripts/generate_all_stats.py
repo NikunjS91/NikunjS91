@@ -178,7 +178,7 @@ def build_languages_svg(languages: dict[str, int]) -> str:
     
     sorted_langs = sorted(languages.items(), key=lambda x: x[1], reverse=True)[:5]
     
-    svg_parts = ["""<svg xmlns="http://www.w3.org/2000/svg" width="495" height="195" viewBox="0 0 495 195">
+    svg_parts = [f"""<svg xmlns="http://www.w3.org/2000/svg" width="495" height="195" viewBox="0 0 495 195">
   <defs>
     <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" style="stop-color:#1a1b27;stop-opacity:1" />
