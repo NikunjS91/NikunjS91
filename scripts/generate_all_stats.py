@@ -33,7 +33,12 @@ def current_streak(days: list[dict]) -> tuple[int, str, str]:
     streak = 0
     streak_start = ""
     streak_end = ""
-    for day in reversed(days):
+    reversed_days = list(reversed(days))
+    # If today has no contributions yet, skip it — the day isn't over.
+    # Without this, a streak breaks every morning until the first commit of the day.
+    if reversed_days and reversed_days[0]["contributionCount"] == 0:
+        reversed_days = reversed_days[1:]
+    for day in reversed_days:
         if day["contributionCount"] > 0:
             streak += 1
             streak_start = day["date"]
