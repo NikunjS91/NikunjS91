@@ -102,10 +102,10 @@ def build_streak_svg(total: int, streak: int, streak_start: str, streak_end: str
   <text x="85" y="150" text-anchor="middle" fill="#9ca3af" font-size="10" font-family="{_FONT}">{since_year} - Present</text>
 
   <rect x="177" y="20" width="140" height="160" rx="10" fill="#1f2937" opacity="0.7"/>
-  <circle cx="247" cy="55" r="28" fill="none" stroke="url(#fireGradient)" stroke-width="4" filter="url(#glow)"/>
-  <path d="M 247 34 l 4 5 l -2 0 l 0 10 l -4 0 l 0 -10 l -2 0 z" fill="url(#fireGradient)" filter="url(#glow)"/>
-  <text x="247" y="90" text-anchor="middle" fill="#ffffff" font-size="28" font-family="{_FONT}" font-weight="700" filter="url(#glow)">{streak}</text>
-  <text x="247" y="116" text-anchor="middle" fill="url(#fireGradient)" font-size="13" font-family="{_FONT}" font-weight="700">Current Streak</text>
+  <circle cx="247" cy="50" r="22" fill="none" stroke="url(#fireGradient)" stroke-width="3" filter="url(#glow)"/>
+  <path d="M 247 32 l 4 5 l -2 0 l 0 10 l -4 0 l 0 -10 l -2 0 z" fill="url(#fireGradient)" filter="url(#glow)"/>
+  <text x="247" y="100" text-anchor="middle" fill="#ffffff" font-size="26" font-family="{_FONT}" font-weight="700" filter="url(#glow)">{streak}</text>
+  <text x="247" y="120" text-anchor="middle" fill="url(#fireGradient)" font-size="13" font-family="{_FONT}" font-weight="700">Current Streak</text>
   <text x="247" y="144" text-anchor="middle" fill="#d1d5db" font-size="10" font-family="{_FONT}">{_esc(fmt_date(streak_start))}</text>
   <text x="247" y="160" text-anchor="middle" fill="#d1d5db" font-size="10" font-family="{_FONT}">{_esc(fmt_date(streak_end))}</text>
 
