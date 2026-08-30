@@ -41,62 +41,38 @@ MS Computer Science graduate at **Pace University, Seidenberg School of CSIS** (
 
 ## 🛠️ Tech Stack
 
-**Cloud Platforms**
+<div align="center">
 
-![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonaws&logoColor=white)
-![Google Cloud](https://img.shields.io/badge/Google%20Cloud-4285F4?style=flat-square&logo=googlecloud&logoColor=white)
-![Azure](https://img.shields.io/badge/Azure-0078D4?style=flat-square&logo=microsoftazure&logoColor=white)
+<table>
+<tr>
+  <td align="center" width="130"><b>💻 Languages</b></td>
+  <td align="center"><img src="https://skillicons.dev/icons?i=python,js,ts,html,css&perline=5" alt="Languages"/></td>
+</tr>
+<tr>
+  <td align="center"><b>☁️ Cloud &amp; DevOps</b></td>
+  <td align="center"><img src="https://skillicons.dev/icons?i=aws,gcp,azure,docker,kubernetes,terraform,linux,git,githubactions,jenkins&perline=10" alt="Cloud & DevOps"/></td>
+</tr>
+<tr>
+  <td align="center"><b>⚙️ Frameworks</b></td>
+  <td align="center"><img src="https://skillicons.dev/icons?i=react,nodejs,fastapi,graphql&perline=6" alt="Frameworks"/></td>
+</tr>
+<tr>
+  <td align="center"><b>🗄️ Databases</b></td>
+  <td align="center"><img src="https://skillicons.dev/icons?i=postgresql,mysql,mongodb,sqlite,redis&perline=6" alt="Databases"/></td>
+</tr>
+<tr>
+  <td align="center"><b>🤖 ML &amp; AI</b></td>
+  <td align="center"><img src="https://skillicons.dev/icons?i=tensorflow,pytorch&perline=5" alt="ML & AI"/></td>
+</tr>
+<tr>
+  <td align="center"><b>📊 Observability</b></td>
+  <td align="center"><img src="https://skillicons.dev/icons?i=prometheus,grafana&perline=5" alt="Monitoring"/></td>
+</tr>
+</table>
 
-**Languages**
+*Also: R · SQL · Shell Script · Apache Kafka · Apache Airflow · MinIO · Scikit-learn · NumPy · Pandas*
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
-![R](https://img.shields.io/badge/R-276DC3?style=flat-square&logo=r&logoColor=white)
-
-**Web Technologies**
-
-![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
-![GraphQL](https://img.shields.io/badge/GraphQL-E10098?style=flat-square&logo=graphql&logoColor=white)
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)
-
-**DevOps & Tooling**
-
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
-![Terraform](https://img.shields.io/badge/Terraform-7B42BC?style=flat-square&logo=terraform&logoColor=white)
-![Apache Airflow](https://img.shields.io/badge/Apache%20Airflow-017CEE?style=flat-square&logo=apacheairflow&logoColor=white)
-![Jenkins](https://img.shields.io/badge/Jenkins-D24939?style=flat-square&logo=jenkins&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
-![Shell Script](https://img.shields.io/badge/Shell_Script-121011?style=flat-square&logo=gnu-bash&logoColor=white)
-
-**Databases & Messaging**
-
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white)
-![SQLite](https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white)
-![Apache Kafka](https://img.shields.io/badge/Apache%20Kafka-231F20?style=flat-square&logo=apachekafka&logoColor=white)
-![MinIO](https://img.shields.io/badge/MinIO-C72E49?style=flat-square&logo=minio&logoColor=white)
-
-**Data & ML**
-
-![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white)
-![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white)
-![Scikit-learn](https://img.shields.io/badge/Scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white)
-![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white)
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
-
-**Monitoring & Observability**
-
-![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=flat-square&logo=prometheus&logoColor=white)
-![Grafana](https://img.shields.io/badge/Grafana-F46800?style=flat-square&logo=grafana&logoColor=white)
+</div>
 
 ---
 
@@ -169,46 +145,6 @@ Deployed an end-to-end NLP solution on AWS SageMaker with scalable cloud infrast
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![AWS SageMaker](https://img.shields.io/badge/AWS%20SageMaker-FF9900?style=flat-square&logo=amazonaws&logoColor=white)
 ![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white)
-![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white)
-
----
-
-### 📉 Predictive Customer Churn Analysis *(January 2024)*
-
-Developed a Python ML model predicting customer churn with **85% accuracy** using Random Forest and Gradient Boosting. Applied feature engineering and dimensionality reduction; recommendations projected to reduce customer attrition by 20%.
-
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![Scikit-learn](https://img.shields.io/badge/Scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white)
-![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white)
-
----
-
-### 🔗 [short-url-nodejs](https://github.com/NikunjS91/short-url-nodejs) — URL Shortener Service
-
-A full-featured URL shortening service with redirect tracking, built with Node.js and a clean REST API design with persistent storage.
-
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
-![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white)
-
----
-
-### 🧵 [thread-app-graphql](https://github.com/NikunjS91/thread-app-graphql) — Threads-style Social App
-
-A social threading application built with TypeScript and a GraphQL API layer, demonstrating schema-first API design and real-time data patterns.
-
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![GraphQL](https://img.shields.io/badge/GraphQL-E10098?style=flat-square&logo=graphql&logoColor=white)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
-
----
-
-### 😴 [sleep-health-lifestyle-eda](https://github.com/NikunjS91/sleep-health-lifestyle-eda) — Sleep Health & Lifestyle EDA
-
-Exploratory Data Analysis of the Sleep Health and Lifestyle dataset as part of CS696A Group Project. Investigates correlations between sleep patterns, lifestyle factors, and health outcomes using Python and Jupyter Notebook.
-
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=flat-square&logo=jupyter&logoColor=white)
 ![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white)
 
 ---
