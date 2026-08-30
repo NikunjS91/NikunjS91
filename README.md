@@ -46,7 +46,7 @@ MS Computer Science graduate at **Pace University, Seidenberg School of CSIS** (
 <table>
 <tr>
   <td align="center" width="130"><b>💻 Languages</b></td>
-  <td align="center"><img src="https://skillicons.dev/icons?i=python,js,ts,html,css&perline=5" alt="Languages"/></td>
+  <td align="center"><img src="https://skillicons.dev/icons?i=python,js,ts,java,cs,html,css&perline=7" alt="Languages"/></td>
 </tr>
 <tr>
   <td align="center"><b>☁️ Cloud &amp; DevOps</b></td>
@@ -54,7 +54,7 @@ MS Computer Science graduate at **Pace University, Seidenberg School of CSIS** (
 </tr>
 <tr>
   <td align="center"><b>⚙️ Frameworks</b></td>
-  <td align="center"><img src="https://skillicons.dev/icons?i=react,nodejs,fastapi,graphql&perline=6" alt="Frameworks"/></td>
+  <td align="center"><img src="https://skillicons.dev/icons?i=react,nodejs,fastapi,graphql,socketio&perline=6" alt="Frameworks"/></td>
 </tr>
 <tr>
   <td align="center"><b>🗄️ Databases</b></td>
@@ -68,9 +68,13 @@ MS Computer Science graduate at **Pace University, Seidenberg School of CSIS** (
   <td align="center"><b>📊 Observability</b></td>
   <td align="center"><img src="https://skillicons.dev/icons?i=prometheus,grafana&perline=5" alt="Monitoring"/></td>
 </tr>
+<tr>
+  <td align="center"><b>🎮 Game Dev</b></td>
+  <td align="center"><img src="https://skillicons.dev/icons?i=unity&perline=5" alt="Game Dev"/></td>
+</tr>
 </table>
 
-*Also: R · SQL · Shell Script · Apache Kafka · Apache Airflow · MinIO · Scikit-learn · NumPy · Pandas*
+*Also: SQL · Shell · PowerShell · Apache Kafka · Apache Airflow · MinIO · Scikit-learn · NumPy · Pandas · LangChain · LaTeX*
 
 </div>
 
