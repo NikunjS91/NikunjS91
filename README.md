@@ -157,11 +157,11 @@ Deployed an end-to-end NLP solution on AWS SageMaker with scalable cloud infrast
 
 <div align="center">
 
-[![GitHub Stats](https://github-profile-summary-cards.vercel.app/api/cards/stats?username=NikunjS91&theme=github_dark&cache_seconds=1800&exclude_repo=&t=1788279614)](https://github.com/NikunjS91)
+[![GitHub Stats](https://github-profile-summary-cards.vercel.app/api/cards/stats?username=NikunjS91&theme=github_dark&cache_seconds=1800&exclude_repo=&t=1788295779)](https://github.com/NikunjS91)
 
-[![Top Languages](https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=NikunjS91&theme=github_dark&cache_seconds=1800&t=1788279614)](https://github.com/NikunjS91)
+[![Top Languages](https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=NikunjS91&theme=github_dark&cache_seconds=1800&t=1788295779)](https://github.com/NikunjS91)
 
-<img src="https://raw.githubusercontent.com/NikunjS91/NikunjS91/main/assets/streak.svg?t=1788279614" alt="GitHub Streak Stats" />
+<img src="https://raw.githubusercontent.com/NikunjS91/NikunjS91/main/assets/streak.svg?t=1788295779" alt="GitHub Streak Stats" />
 
 </div>
 
